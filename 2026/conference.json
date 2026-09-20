@@ -1,0 +1,390 @@
+{
+  "name": "APICon Conference",
+  "tagline": "Building reliable APIs for East African products",
+  "app": {
+    "name": "APICon",
+    "version": "1.0.0"
+  },
+  "venue": {
+    "name": "孔子学院\nConfucius Institute at UDSM",
+    "address": "Mtaa Yombo, Kinondoni",
+    "city": "Dar es Salaam",
+    "country": "Tanzania",
+    "description": "APICon takes place at the Confucius Institute at the University of Dar es Salaam. Registration details will be posted at the entrance.",
+    "appleMapsUrl": "https://maps.apple.com/place?address=Mtaa%20Yombo,%20Kinondoni,%20Tanzania&coordinate=-6.778728,39.201487&name=Confucius%20Institute%20at%20UDSM&place-id=I51B2CA29A8E85AED&map=h",
+    "googleMapsUrl": "https://maps.app.goo.gl/qjG7JjLVNLSFaEFC6"
+  },
+  "speakers": [
+    {
+      "id": "amina-juma",
+      "name": "Amina Juma",
+      "role": "Principal API Engineer",
+      "organization": "NilePay",
+      "bio": "Amina designs payment APIs used by banks and fintechs across East Africa. She focuses on idempotency, versioning, and making failure modes obvious to client teams.",
+      "imageUrl": null
+    },
+    {
+      "id": "daniel-owuor",
+      "name": "Daniel Owuor",
+      "role": "Staff Engineer",
+      "organization": "Safari Cloud",
+      "bio": "Daniel works on developer platforms and OpenAPI-first services. He previously led API gateway work for a regional telecom and now helps teams ship safer public APIs.",
+      "imageUrl": null
+    },
+    {
+      "id": "grace-mwakasege",
+      "name": "Grace Mwakasege",
+      "role": "Engineering Manager",
+      "organization": "Dar Health Systems",
+      "bio": "Grace leads teams building health-data integrations. She cares about consent, audit trails, and APIs that hospitals can operate without a dedicated platform crew.",
+      "imageUrl": null
+    },
+    {
+      "id": "joseph-kimani",
+      "name": "Joseph Kimani",
+      "role": "Developer Advocate",
+      "organization": "Open Roads",
+      "bio": "Joseph teaches practical API design through workshops and office hours. He is known for turning vague product requirements into clear resource models.",
+      "imageUrl": null
+    },
+    {
+      "id": "lina-hassan",
+      "name": "Lina Hassan",
+      "role": "Security Engineer",
+      "organization": "Coastline Bank",
+      "bio": "Lina specializes in OAuth, token hygiene, and abuse prevention. She helps product teams add authentication without making partner onboarding painful.",
+      "imageUrl": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "opening-keynote",
+      "title": "Opening keynote: APIs that survive real traffic",
+      "description": "A look at the API failures that show up only after launch, and the design habits that prevent them. We will cover timeouts, retries, and what partners actually need in an error body.",
+      "startTime": "2026-11-21T09:00:00+03:00",
+      "endTime": "2026-11-21T09:45:00+03:00",
+      "room": "Main Hall",
+      "speakerIds": [
+        "amina-juma"
+      ]
+    },
+    {
+      "id": "openapi-workshop",
+      "title": "Workshop: Designing with OpenAPI before you write handlers",
+      "description": "A hands-on session on writing a contract first, generating types, and keeping docs honest. Bring a laptop. We will sketch a small payments API together.",
+      "startTime": "2026-11-21T10:15:00+03:00",
+      "endTime": "2026-11-21T11:45:00+03:00",
+      "room": "Workshop Room",
+      "speakerIds": [
+        "daniel-owuor",
+        "joseph-kimani"
+      ]
+    },
+    {
+      "id": "health-integrations",
+      "title": "Integrating hospital systems without leaking patient data",
+      "description": "Grace walks through a regional health integration: scopes, audit logs, and how to say no to a field that should never leave the clinic.",
+      "startTime": "2026-11-21T13:15:00+03:00",
+      "endTime": "2026-11-21T14:00:00+03:00",
+      "room": "Main Hall",
+      "speakerIds": [
+        "grace-mwakasege"
+      ]
+    },
+    {
+      "id": "auth-that-partners-can-use",
+      "title": "OAuth for partner APIs that non-specialists can ship",
+      "description": "A practical tour of authorization code, client credentials, and refresh tokens. We will also talk about the mistakes that lock partners out on day one.",
+      "startTime": "2026-11-21T14:15:00+03:00",
+      "endTime": "2026-11-21T15:00:00+03:00",
+      "room": "Main Hall",
+      "speakerIds": [
+        "lina-hassan"
+      ]
+    },
+    {
+      "id": "versioning-without-chaos",
+      "title": "API versioning without splitting the team in two",
+      "description": "When to bump a version, when to add a field, and how to sunset an endpoint that still has production traffic.",
+      "startTime": "2026-11-21T15:15:00+03:00",
+      "endTime": "2026-11-21T16:00:00+03:00",
+      "room": "Main Hall",
+      "speakerIds": [
+        "daniel-owuor"
+      ]
+    },
+    {
+      "id": "dx-office-hours",
+      "title": "Developer experience office hours",
+      "description": "Bring a confusing error message, a messy endpoint, or a partner complaint. We will review a few examples live and leave with a checklist you can reuse.",
+      "startTime": "2026-11-21T16:15:00+03:00",
+      "endTime": "2026-11-21T17:00:00+03:00",
+      "room": "Workshop Room",
+      "speakerIds": [
+        "joseph-kimani",
+        "amina-juma"
+      ]
+    },
+    {
+      "id": "closing-panel",
+      "title": "Closing panel: What East African API teams should build next",
+      "description": "Speakers compare notes on payments, health, identity, and the documentation that actually gets read. Audience questions welcome.",
+      "startTime": "2026-11-21T17:15:00+03:00",
+      "endTime": "2026-11-21T18:00:00+03:00",
+      "room": "Main Hall",
+      "speakerIds": [
+        "amina-juma",
+        "grace-mwakasege",
+        "lina-hassan",
+        "daniel-owuor"
+      ]
+    }
+  ],
+  "sponsors": [
+    {
+      "id": "diamond-placeholder",
+      "name": "",
+      "tier": "diamond",
+      "websiteUrl": "",
+      "logoUrl": null
+    },
+    {
+      "id": "gold-placeholder-1",
+      "name": "",
+      "tier": "gold",
+      "websiteUrl": "",
+      "logoUrl": null
+    },
+    {
+      "id": "gold-placeholder-2",
+      "name": "",
+      "tier": "gold",
+      "websiteUrl": "",
+      "logoUrl": null
+    },
+    {
+      "id": "silver-placeholder-1",
+      "name": "",
+      "tier": "silver",
+      "websiteUrl": "",
+      "logoUrl": null
+    },
+    {
+      "id": "silver-placeholder-2",
+      "name": "",
+      "tier": "silver",
+      "websiteUrl": "",
+      "logoUrl": null
+    }
+  ],
+  "organizers": [
+    {
+      "id": "msambili-ndaga",
+      "name": "Msambili Ndaga",
+      "title": "API Security Specialist",
+      "role": "Founder & Community Lead",
+      "bio": "Leads the vision, strategy, and growth of APICon Tanzania while driving community engagement in APIs, DevSecOps, and cybersecurity.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/msambili-ndaga-b55373229/"
+        },
+        {
+          "id": "github",
+          "label": "GitHub",
+          "url": "https://github.com/msabenda"
+        },
+        {
+          "id": "portfolio",
+          "label": "Portfolio",
+          "url": "https://msabenda.github.io/remnant-portfolio/"
+        }
+      ]
+    },
+    {
+      "id": "gilbert-munuo",
+      "name": "Gilbert Munuo",
+      "title": "Software Developer",
+      "role": "Project Manager",
+      "bio": "Coordinates event planning, operations, timelines, and execution to deliver a successful and well-organized conference experience.",
+      "socialLinks": [
+        {
+          "id": "github",
+          "label": "GitHub",
+          "url": "https://github.com/gilbertmunuotz"
+        },
+        {
+          "id": "x",
+          "label": "X",
+          "url": "https://x.com/gilbertmunuotz"
+        },
+        {
+          "id": "portfolio",
+          "label": "Portfolio",
+          "url": "https://gilbertmunuotz.com/"
+        }
+      ]
+    },
+    {
+      "id": "yusra-abdulbastwa",
+      "name": "Yusra Abdulbastwa",
+      "title": "Communication Officer",
+      "role": "Marketing & Branding Lead",
+      "bio": "Responsible for event promotions, digital campaigns, visual identity, and strengthening the APICon Tanzania brand presence.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/yusra-abdulbastwa/"
+        },
+        {
+          "id": "github",
+          "label": "GitHub",
+          "url": "https://github.com/Tech-trooper06"
+        }
+      ]
+    },
+    {
+      "id": "tito-mwaisengela",
+      "name": "Tito Mwaisengela",
+      "title": "Full-Stack Developer",
+      "role": "Developer (Technical Lead)",
+      "bio": "Oversees technical sessions, demonstrations, and developer-focused activities related to APIs, security, and modern technologies.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/tito-mwaisengela-3990273a9/"
+        },
+        {
+          "id": "github",
+          "label": "GitHub",
+          "url": "https://github.com/tito-devsec"
+        },
+        {
+          "id": "portfolio",
+          "label": "Portfolio",
+          "url": "https://titodevsec.online/"
+        }
+      ]
+    },
+    {
+      "id": "edgar-nyabagaka",
+      "name": "Edgar Nyabagaka",
+      "title": "DevOps Engineer",
+      "role": "Community Relationship Lead",
+      "bio": "Engages with universities, developer communities, and student organizations to strengthen collaboration and participation.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/edgar-jn/"
+        },
+        {
+          "id": "github",
+          "label": "GitHub",
+          "url": "https://github.com/edgarjn"
+        }
+      ]
+    },
+    {
+      "id": "zakia-naswabu",
+      "name": "Zakia Naswabu",
+      "title": "AI & ML Enthusiast",
+      "role": "Community Relationship",
+      "bio": "Supports community outreach, participant engagement, and relationship building across academic and technology ecosystems.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/zakia-naswabu-580721375/"
+        }
+      ]
+    },
+    {
+      "id": "hilton-simon",
+      "name": "Hilton Simon",
+      "title": "Creative Designer, Blackpentz",
+      "role": "Graphic Designer & Content Creator",
+      "bio": "Supports creative communication, audience engagement, social media outreach, and community awareness initiatives.",
+      "socialLinks": [
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/hilton-simon-9303183a3/"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": "support",
+      "kind": "email",
+      "label": "Support",
+      "value": "support@apicon.or.tz"
+    },
+    {
+      "id": "partnerships",
+      "kind": "email",
+      "label": "Partnerships",
+      "value": "partnerships@apicon.or.tz"
+    },
+    {
+      "id": "sponsorships",
+      "kind": "email",
+      "label": "Sponsorships",
+      "value": "sponsorships@apicon.or.tz"
+    },
+    {
+      "id": "speakers",
+      "kind": "email",
+      "label": "Speakers",
+      "value": "speakers@apicon.or.tz"
+    },
+    {
+      "id": "phone",
+      "kind": "phone",
+      "label": "Phone",
+      "value": "+255 745 289 098"
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "website",
+      "kind": "website",
+      "label": "Website",
+      "url": "https://apicon.or.tz"
+    },
+    {
+      "id": "linkedin",
+      "kind": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/company/apicontz"
+    },
+    {
+      "id": "instagram",
+      "kind": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/apicontz"
+    },
+    {
+      "id": "x",
+      "kind": "x",
+      "label": "X",
+      "url": "https://www.x.com/apicontz"
+    },
+    {
+      "id": "whatsapp-channel",
+      "kind": "whatsapp-channel",
+      "label": "WhatsApp Channel",
+      "url": "https://whatsapp.com/channel/0029Vb8TF2KEawdhUjE7uR3k"
+    },
+    {
+      "id": "whatsapp-community",
+      "kind": "whatsapp-community",
+      "label": "WhatsApp Community",
+      "url": "https://chat.whatsapp.com/HdPOT43wZRk4ypGPoKEymU?s=cl&p=i&ilr=2"
+    }
+  ]
+}
